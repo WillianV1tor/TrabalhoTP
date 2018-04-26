@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "132431894175",
+    "firebase_url": "https://movieme-8888.firebaseio.com",
+    "project_id": "movieme-8888",
+    "storage_bucket": "movieme-8888.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:132431894175:android:c86ac709e97103e4",
+        "android_client_info": {
+          "package_name": "com.example.willian.movieme"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "132431894175-d36sno62f1uglbvjkbnsqjt07rv07140.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC3SrmW2rMt_3hilj7N3oy31-mS9mDrhu4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

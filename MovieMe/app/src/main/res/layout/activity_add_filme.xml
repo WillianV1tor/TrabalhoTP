@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.willian.movieme.AddFilmeActivity">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_margin="10dp"
+        android:hint="@string/addFilme_nome"
+        android:id="@+id/addFilme_nome" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:hint="@string/addFilme_genero"
+        android:id="@+id/addFilme_genero"
+
+        android:layout_below="@id/addFilme_nome"
+        android:layout_alignEnd="@id/addFilme_nome"
+        android:layout_alignStart="@id/addFilme_nome"
+        android:layout_marginBottom="10dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:hint="@string/addFilme_diretor"
+        android:id="@+id/addFilme_diretor"
+
+        android:layout_below="@id/addFilme_genero"
+        android:layout_alignEnd="@id/addFilme_nome"
+        android:layout_alignStart="@id/addFilme_nome"
+        android:layout_marginBottom="10dp"
+        />
+
+    <EditText
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+
+        android:hint="@string/addFilme_ano"
+        android:id="@+id/addFilme_ano"
+        android:inputType="number"
+
+        android:layout_below="@id/addFilme_diretor"
+        android:layout_alignStart="@id/addFilme_nome"
+        android:layout_marginBottom="10dp"
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:id="@+id/addFilme_lblFaixa"
+
+        android:layout_below="@id/addFilme_ano"
+        android:layout_alignStart="@id/addFilme_nome"
+        android:text="@string/addFilme_faixa"
+        android:textSize="20dp"
+        />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/addFilme_lblFaixa"
+        android:orientation="vertical"
+        android:id="@+id/addFilme_radioGroup">
+
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleX="0.8"
+            android:scaleY="0.8"
+            android:id="@+id/livre"
+
+            android:text="@string/classLivre"
+            android:textSize="20dp"
+            android:layout_marginLeft="20dp" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:scaleX="0.8"
+            android:scaleY="0.8"
+            android:id="@+id/dez"
+
+            android:text="@string/classDez"
+            android:textSize="20dp"
+            android:layout_marginLeft="20dp"/>
+
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:scaleX="0.8"
+            android:scaleY="0.8"
+            android:id="@+id/doze"
+
+            android:text="@string/classDoze"
+            android:textSize="20dp"
+            android:layout_marginLeft="20dp"/>
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:scaleX="0.8"
+                android:scaleY="0.8"
+                android:id="@+id/catorze"
+
+                android:text="@string/classCatorze"
+                android:textSize="20dp"
+                android:layout_marginLeft="20dp"
+                />
+
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:scaleX="0.8"
+                android:scaleY="0.8"
+                android:id="@+id/dezesseis"
+
+                android:text="@string/classDezesseis"
+                android:textSize="20dp"
+                android:layout_marginLeft="20dp"/>
+
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:scaleX="0.8"
+                android:scaleY="0.8"
+                android:id="@+id/dezoito"
+
+                android:text="@string/classDezoito"
+                android:textSize="20dp"
+                android:layout_marginLeft="20dp"/>
+
+    </RadioGroup>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/addFilme_radioGroup"
+        android:layout_alignEnd="@id/addFilme_nome"
+        android:text="@string/addFilme_btnAdd"
+        android:id="@+id/addFilme_btnAdd"
+        />
+</RelativeLayout>

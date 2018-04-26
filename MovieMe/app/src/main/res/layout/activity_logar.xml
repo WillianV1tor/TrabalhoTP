@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="#2B2B2E">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt_titulo"
+        android:text="MovieMe"
+        android:fontFamily="@font/fontepacifico"
+        android:textSize="110px"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="70px"
+        android:textColor="#FFAA24"
+        android:layout_marginTop="85px"/>
+
+    <ImageView
+        android:layout_width="150px"
+        android:layout_height="170px"
+        android:src="@drawable/pipoca"
+        android:layout_toLeftOf="@+id/txt_titulo"
+        android:layout_marginTop="97px"/>
+
+    <EditText
+        android:id="@+id/lbl_usuario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="400px"
+        android:width="550px"
+        android:height="150px"
+        android:background="@drawable/edttxt"
+        android:hint="@string/hint_ent_usuario"
+        android:singleLine="false"
+        android:textColorHint="#FFAA24"
+        android:gravity="center"
+        android:textSize="45px"/>
+
+    <EditText
+        android:id="@+id/lbl_senha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lbl_usuario"
+        android:layout_centerHorizontal="true"
+        android:width="550px"
+        android:height="150px"
+        android:background="@drawable/edttxt"
+        android:hint="@string/hint_ent_senha"
+        android:gravity="center"
+        android:singleLine="false"
+        android:textColorHint="#FFAA24"
+        android:textSize="45px"
+        android:layout_marginTop="20px" />
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lbl_senha"
+        android:layout_centerHorizontal="true"
+        android:width="220px"
+        android:height="120px"
+        android:text="@string/botao_entrar"
+        android:textSize="38px"
+        android:background="@drawable/buttonborder"
+        android:layout_marginTop="30px"
+        android:textColor="#000000"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_cad"
+        android:layout_below="@+id/btn_login"
+        android:layout_centerHorizontal="true"
+        android:width="290px"
+        android:height="120px"
+        android:layout_marginTop="50px"
+        android:text="@string/botao_novo_usuario"
+        android:textColor="#943513"
+        android:textSize="38px"
+        android:background="#00000000"/>
+
+
+</RelativeLayout>

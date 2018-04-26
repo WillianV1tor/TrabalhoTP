@@ -1,0 +1,67 @@
+<resources>
+
+    <string name="app_name">MovieMe</string>
+
+    <!--    AddFilme Activity -->
+
+    <string name="addFilme_nome">Movie Name</string>
+    <string name="addFilme_genero">Genre</string>
+    <string name="addFilme_diretor">Director</string>
+    <string name="addFilme_ano">Year</string>
+    <string name="addFilme_faixa">Age Rating:</string>
+    <string name="addFilme_btnAdd">Add</string>
+
+    <!-- Classificações indicativas -->
+
+    <string name="classLivre">L</string>
+    <string name="classDez">10</string>
+    <string name="classDoze">12</string>
+    <string name="classCatorze">14</string>
+    <string name="classDezesseis">16</string>
+    <string name="classDezoito">18</string>
+
+    <!-- Dialogs ao excluir filme -->
+
+    <string name="dialogTitle">Alert!</string>
+    <string name="dialogMessage">Are you sure you want to remove this movie?</string>
+    <string name="dialogPositive">Yes</string>
+    <string name="dialogNegative">Cancel</string>
+    <string name="toastFilmeRemovido">Movie successfully removed</string>
+
+    <!-- Toasts AddFilme Activity -->
+
+    <string name="toastNomeObrigatorio">Movie`s name is required</string>
+    <string name="toastGeneroObrigatorio">Movie`s genre is required</string>
+    <string name="toastAnoObrigatorio">Movie`s release year is required</string>
+    <string name="toastFaixaObrigatoria">Movie`s age rating is required</string>
+
+    <!-- ListagemActivity -->
+    <string name="listagemBtnShare">Share</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+
+    <!-- Tela de login -->
+    <string name="botao_entrar">LOGIN</string>
+    <string name="botao_novo_usuario">SIGN IN HERE</string>
+    <string name="texto_novo_usuario">New user?</string>
+    <string name="hint_ent_usuario">Email</string>
+    <string name="hint_ent_senha">Password</string>
+
+
+    <!-- Tela de cadastro -->
+    <string name="botao_cadastrar">Sign in</string>
+    <string name="cad_hint_usuario">Email</string>
+    <string name="cad_hint_senha">Password</string>
+
+</resources>
